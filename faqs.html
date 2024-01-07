@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+    <title>FAQ's</title>
+    <link rel="icon" href="ser (2).png" type="image/x-icon">
+    <style>
+        header {
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+            }
+            html{
+            scroll-behavior: smooth;
+        }
+        body {
+            font-size: 20px;
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+            }  
+        body, ul {
+            margin: 0%;
+            padding: 0;
+        }
+        ul.navbar {
+            background-color: white;
+            list-style-type: none;
+            overflow: hidden;
+        }
+        ul.navbar li {
+            float: left;
+        }
+        ul.navbar li a {
+            display:inline;
+            color: #0cc0df;
+            text-align: center;
+            color: #ff66c4;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; outline: black;
+            padding: 20px 16px;
+            text-decoration: none;
+        }
+        ul.navbar li a:hover {
+            background-color: white;
+        }
+        footer {
+            padding: 10px;
+            background-color: black;
+            text-align:left;
+            color: #0cc0df;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            } 
+        .collapsible {
+            text-align: center;
+            color: #ff66c4;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            cursor:grab;
+            padding: 40px;
+            border-radius: 30px;
+            width: 100%;
+            border:#ff66c4;
+            text-align: left;
+            outline: black;
+            font-size: 35px;
+            scroll-behavior: smooth;
+}
+
+        .active, .collapsible:hover {
+             background-color: #ff66c4;
+             color: white;
+             scroll-behavior: smooth;
+}
+
+        .content {
+             padding: 20px;
+            display: none;
+            scroll-behavior: smooth;
+             overflow: hidden;
+             background-color: white;
+}     
+</style>
+</head>
+
+<header>
+    <img src="head.png" style="width: 100%;">
+</header>
+<ul class="navbar" style="padding: 17px; text-align: end; font-size: 40px; line-height: 5px; border-radius: 50px;">
+    <li><a href="index.html" title="Home">Home</a></li>
+    <li><a href="aboutus.html#about" title="About">About us</a></li>
+    <li><a href="menu.html#menu" title="Menu">Menu</a></li>
+    <li><a href="inquiries.html#inquiries" title="Inquiries">Inquiries</a></li>
+</ul>
+
+<body>
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 100px; text-align: center;" id="faqs"><b>FAQ's</b></h1>
+    <hr>
+
+<button type="button" class="collapsible">+What sets SERBERTO’S apart from other ice cream shops?
+</button>
+<div class="content">
+  <p style="text-indent: 2cm; text-align: justify; font-family: 'Brush Script MT', cursive;"><b>At SERBERTO’S, we pride ourselves on crafting premium ice cream using the finest
+    ingredients sourced locally. Our commitment to quality, unique flavor combinations, and
+    a cozy ambiance sets us apart, providing a delightful experience for our customers.</b>
+    </p>
+</div><br>
+
+<button type="button" class="collapsible">+Can I order ice cream for special events or parties?
+</button>
+<div class="content">
+    <p style="text-indent: 2cm; text-align: justify; font-family: 'Brush Script MT', cursive;"><b>Certainly! SERBERTO’S is happy to cater to your special events and celebrations.
+    Contact our team in advance to discuss flavor options, quantities, and any specific
+    requirements you may have.</b>
+    </p>
+</div><br>
+
+<button type="button" class="collapsible">+Are your ingredients locally sourced?
+</button>
+<div class="content">
+    <p style="text-indent: 2cm; text-align: justify; font-family: 'Brush Script MT', cursive;"><b>We take pride in supporting local communities. While some ingredients are sourced We
+    also have strong partnerships with local dairy farmers, promoting sustainability and
+    ethical practices.</b>
+    </p>
+</div><br>
+
+<button type="button" class="collapsible">+Do you have sugar-free options available?
+</button>
+<div class="content">
+    <p style="text-indent: 2cm; text-align: justify; font-family: 'Brush Script MT', cursive;"><b>Currently, our focus is on delivering the best taste using natural ingredients. We don't
+    offer sugar-free options, but we do have a range of flavors that are lower in sugar for
+    those seeking a lighter indulgence.</b>
+    </p>
+</div><br>
+
+<button type="button" class="collapsible">+How often do you introduce new flavors?
+</button>
+<div class="content">
+    <p style="text-indent: 2cm; text-align: justify; font-family: 'Brush Script MT', cursive;"><b>We love surprising our customers with new and exciting flavors. While our classic
+    favorites are always available, we regularly introduce seasonal and limited-edition
+    creations to keep things fresh and adventurous.</b>  
+</p>
+</div>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+    
+</body>
+<hr>
+<footer style="padding: 5px;">   
+    <ul class="navbar" style="text-align: center;">
+        <p style="text-align: center; font-size: 50px;">SER<span style="color: #ff66c4;">BERTO'S</span></p>
+        <li><a href="inquiries.html#inquiries" title="Contact" style="font-size: 30px;">Contact Us</a></li>
+                <li><a href="faqs.html#faqs" title="FAQ's" style="font-size: 30px;">FAQ's</a></li>
+                <p style="text-align:end; font-size: 30px;" title="Facebook page">Follow Us:<a href="https://www.facebook.com/serbrts" target="_blank"><img src="fb.png" style="height: 34px; width: 34px; float: inline-end;"></a></p>
+    </ul>
+</footer>
+</html>

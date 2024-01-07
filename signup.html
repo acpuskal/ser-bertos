@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <style>
+    body {
+
+    background: url('bgwp.jpg') center;
+    background-size: 120%;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .signup-container {
+      background-color: #fff;
+      border: #333;
+      border-width: 10%;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 400px;
+      text-align: center;
+    }
+
+    .signup-container h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .signup-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .signup-form label {
+      margin-bottom: 8px;
+      color: #555;
+    }
+
+    .signup-form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .signup-form button {
+      background-color: #0cc0df;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .signup-form button:hover {
+      background-color: #ff66c4;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="signup-container">
+    <h2 style="font-family: 'Brush Script MT', cursive;">Sign Up</h2>
+    <form class="signup-form">
+      <label for="username" style="font-family: 'Brush Script MT', cursive;">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="email" style="font-family: 'Brush Script MT', cursive;">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password" style="font-family: 'Brush Script MT', cursive;">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit"><a href="login.html" style="font-family: 'Brush Script MT', cursive;">Sign Up</a></button>
+      
+    </form>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
